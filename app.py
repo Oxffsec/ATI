@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 
 # Load API keys from .env file (More secure than hardcoding)
-ABUSEIPDB_API_KEY = "107ff450b4e6bede63c1d8e688b99b0e94c6694abd21c763bce8c9fac23edf8174264a9082a69a54"
-VIRUSTOTAL_API_KEY = "b38d18a86a66a9968b927d498bb010223d615f060c51a2af985cd40f719cbb71"
-ALIENVAULT_API_KEY = "a923ebeaaf941b1e6d0388f03cb9e12fdae07def82c72f5e9deea69261143d42"
+ABUSEIPDB_API_KEY = "your api key"
+VIRUSTOTAL_API_KEY = "your api key"
+ALIENVAULT_API_KEY = "your api key"
 
 
 # Function to check IP reputation
