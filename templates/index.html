@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Threat Intelligence Platform</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Threat Intelligence Platform</h1>
+        <input type="text" id="queryInput" placeholder="Enter IP or Hash">
+        <button onclick="scanQuery()"><i class="fas fa-search"></i> Scan</button>
+        <div id="results"></div>
+        <div id="map"></div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
